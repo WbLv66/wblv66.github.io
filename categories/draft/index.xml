@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Draft on </title>
+    <title>Draft - 分类 - </title>
     <link>https://lvwinbor.github.io/categories/draft/</link>
-    <description>Recent content in Draft on </description>
-    <generator>Hugo</generator>
+    <description></description>
+    <generator>Hugo 0.143.1 &amp; FixIt v0.3.16</generator>
     <language>zh-CN</language>
     <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
     <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
@@ -13,8 +13,9 @@
     <item>
       <title>My First Post</title>
       <link>https://lvwinbor.github.io/posts/583bc6c/</link>
-      <pubDate>Tue, 04 Feb 2025 10:16:01 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <pubDate>Tue, 04 Feb 2025 10:16:01 +0800</pubDate>
       <guid>https://lvwinbor.github.io/posts/583bc6c/</guid>
+      <category domain="https://lvwinbor.github.io/categories/draft/">Draft</category>
       <description>&lt;p&gt;博客（英语：Blog）是一种在线日记型式的个人网站，借由张帖子章、图片或视频来记录生活、抒发情感或分享信息。博客上的文章通常根据张贴时间，以倒序方式由新到旧排列。&lt;/p&gt;</description>
     </item>
   </channel>

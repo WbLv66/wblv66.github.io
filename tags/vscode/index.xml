@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vscode on </title>
+    <title>Vscode - 标签 - </title>
     <link>https://lvwinbor.github.io/tags/vscode/</link>
-    <description>Recent content in Vscode on </description>
-    <generator>Hugo</generator>
+    <description></description>
+    <generator>Hugo 0.143.1 &amp; FixIt v0.3.16</generator>
     <language>zh-CN</language>
     <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
     <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
@@ -15,7 +15,8 @@
       <link>https://lvwinbor.github.io/posts/51dd9c5/</link>
       <pubDate>Wed, 05 Feb 2025 15:44:45 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
       <guid>https://lvwinbor.github.io/posts/51dd9c5/</guid>
-      <description></description>
+      <category domain="https://lvwinbor.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</category>
+      <description>Vscode+clang</description>
     </item>
   </channel>
 </rss>

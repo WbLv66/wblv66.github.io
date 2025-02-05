@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>笔记 on </title>
+    <title>笔记 - 分类 - </title>
     <link>https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
-    <description>Recent content in 笔记 on </description>
-    <generator>Hugo</generator>
+    <description></description>
+    <generator>Hugo 0.143.1 &amp; FixIt v0.3.16</generator>
     <language>zh-CN</language>
     <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
     <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
@@ -15,7 +15,8 @@
       <link>https://lvwinbor.github.io/posts/c41c58c/</link>
       <pubDate>Wed, 05 Feb 2025 16:08:40 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
       <guid>https://lvwinbor.github.io/posts/c41c58c/</guid>
-      <description></description>
+      <category domain="https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>Docker</description>
     </item>
   </channel>
 </rss>
