@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
+    <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
+    <lastBuildDate>Wed, 05 Feb 2025 16:19:02 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>升级Eigen库</title>
+      <link>http://localhost:1313/posts/0d48d55/</link>
+      <pubDate>Wed, 05 Feb 2025 16:19:02 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/0d48d55/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>在Linux上使用v2ray</title>
+      <link>http://localhost:1313/posts/b535a54/</link>
+      <pubDate>Wed, 05 Feb 2025 16:10:12 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/b535a54/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/posts/c41c58c/</link>
+      <pubDate>Wed, 05 Feb 2025 16:08:40 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/c41c58c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:1313/posts/539f164/</link>
+      <pubDate>Wed, 05 Feb 2025 16:07:30 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/539f164/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CLion上使用ros</title>
+      <link>http://localhost:1313/posts/d8e0057/</link>
+      <pubDate>Wed, 05 Feb 2025 16:05:51 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/d8e0057/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>设置开机自启动</title>
+      <link>http://localhost:1313/posts/12d83fa/</link>
+      <pubDate>Wed, 05 Feb 2025 15:49:52 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/12d83fa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>升级Cmake</title>
+      <link>http://localhost:1313/posts/84260000000000000000000000/</link>
+      <pubDate>Wed, 05 Feb 2025 15:48:18 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/84260000000000000000000000/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vscode&#43;clang</title>
+      <link>http://localhost:1313/posts/51dd9c5/</link>
+      <pubDate>Wed, 05 Feb 2025 15:44:45 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/51dd9c5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zsh</title>
+      <link>http://localhost:1313/posts/bbea803/</link>
+      <pubDate>Wed, 05 Feb 2025 15:35:51 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/bbea803/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>升级GCC</title>
+      <link>http://localhost:1313/posts/4e49678/</link>
+      <pubDate>Tue, 04 Feb 2025 16:08:06 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/4e49678/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/583bc6c/</link>
+      <pubDate>Tue, 04 Feb 2025 10:16:01 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>http://localhost:1313/posts/583bc6c/</guid>
+      <description>&lt;p&gt;博客（英语：Blog）是一种在线日记型式的个人网站，借由张帖子章、图片或视频来记录生活、抒发情感或分享信息。博客上的文章通常根据张贴时间，以倒序方式由新到旧排列。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
