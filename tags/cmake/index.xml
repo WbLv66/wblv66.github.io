@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cmake on </title>
-    <link>http://localhost:1313/tags/cmake/</link>
+    <link>https://lvwinbor.github.io/tags/cmake/</link>
     <description>Recent content in Cmake on </description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
     <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
     <lastBuildDate>Wed, 05 Feb 2025 15:48:18 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cmake/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lvwinbor.github.io/tags/cmake/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>升级Cmake</title>
-      <link>http://localhost:1313/posts/84260000000000000000000000/</link>
+      <link>https://lvwinbor.github.io/posts/84260000000000000000000000/</link>
       <pubDate>Wed, 05 Feb 2025 15:48:18 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
-      <guid>http://localhost:1313/posts/84260000000000000000000000/</guid>
+      <guid>https://lvwinbor.github.io/posts/84260000000000000000000000/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eigen on </title>
-    <link>http://localhost:1313/tags/eigen/</link>
+    <link>https://lvwinbor.github.io/tags/eigen/</link>
     <description>Recent content in Eigen on </description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
     <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
     <lastBuildDate>Wed, 05 Feb 2025 16:19:02 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/eigen/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lvwinbor.github.io/tags/eigen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>升级Eigen库</title>
-      <link>http://localhost:1313/posts/0d48d55/</link>
+      <link>https://lvwinbor.github.io/posts/0d48d55/</link>
       <pubDate>Wed, 05 Feb 2025 16:19:02 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
-      <guid>http://localhost:1313/posts/0d48d55/</guid>
+      <guid>https://lvwinbor.github.io/posts/0d48d55/</guid>
       <description></description>
     </item>
   </channel>

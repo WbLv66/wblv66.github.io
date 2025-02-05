@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>笔记 on </title>
-    <link>http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/</link>
+    <link>https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content in 笔记 on </description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
     <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
     <lastBuildDate>Wed, 05 Feb 2025 16:08:40 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker</title>
-      <link>http://localhost:1313/posts/c41c58c/</link>
+      <link>https://lvwinbor.github.io/posts/c41c58c/</link>
       <pubDate>Wed, 05 Feb 2025 16:08:40 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
-      <guid>http://localhost:1313/posts/c41c58c/</guid>
+      <guid>https://lvwinbor.github.io/posts/c41c58c/</guid>
       <description></description>
     </item>
   </channel>

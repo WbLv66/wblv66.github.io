@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>V2ray on </title>
-    <link>http://localhost:1313/tags/v2ray/</link>
+    <link>https://lvwinbor.github.io/tags/v2ray/</link>
     <description>Recent content in V2ray on </description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
     <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
     <lastBuildDate>Wed, 05 Feb 2025 16:10:12 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/v2ray/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lvwinbor.github.io/tags/v2ray/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在Linux上使用v2ray</title>
-      <link>http://localhost:1313/posts/b535a54/</link>
+      <link>https://lvwinbor.github.io/posts/b535a54/</link>
       <pubDate>Wed, 05 Feb 2025 16:10:12 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
-      <guid>http://localhost:1313/posts/b535a54/</guid>
+      <guid>https://lvwinbor.github.io/posts/b535a54/</guid>
       <description></description>
     </item>
   </channel>
