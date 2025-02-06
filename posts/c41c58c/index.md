@@ -2,6 +2,7 @@
 
 
 &lt;!--more--&gt;
+{{&lt; figure src=&#34;picture/8.jpg&#34;&gt;}}
 ## docker命令
 
 查看本地镜像

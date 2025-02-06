@@ -5,7 +5,7 @@
 &lt;!-- - [升级Eigen库](#升级eigen库)
   - [1. 查看Eigen版本](#1-查看eigen版本)
   - [2. 安装](#2-安装) --&gt;
-
+{{&lt; figure src=&#34;picture/10.jpg&#34;  &gt;}}
 ## 升级Eigen库
 
 `usr/include/eigen3`存放的是apt安装的Eigen库

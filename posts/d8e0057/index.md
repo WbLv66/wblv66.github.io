@@ -2,6 +2,7 @@
 
 
 &lt;!--more--&gt;
+{{&lt; figure src=&#34;picture/6.jpg&#34;&gt;}}
 ## CLion上使用ros
 
 ### 1. 启动CLion

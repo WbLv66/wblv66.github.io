@@ -2,6 +2,7 @@
 
 
 &lt;!--more--&gt;
+{{&lt; figure src=&#34;picture/9.jpg&#34;&gt;}}
 ## 在Linux上使用v2ray
 
 ### 1. 安装 v2ray-core 和 v2rayA
