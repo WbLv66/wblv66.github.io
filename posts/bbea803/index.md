@@ -3,8 +3,8 @@
 
 &lt;!--more--&gt;
 {{&lt; figure src=&#34;picture/2.jpg&#34;&gt;}}
-## 配置zsh
-### 1. 安装zsh
+# 配置zsh
+## 1. 安装zsh
 ```
 sudo apt-get update
 sudo apt-get install zsh
@@ -14,20 +14,20 @@ chsh -s $(which zsh)
 
 ```
 不要关闭终端
-### 2. 安装oh-my-zsh
+## 2. 安装oh-my-zsh
 
 ```
 sh -c &#34;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&#34; 
 
 ```
-### 3. 修改主题
+## 3. 修改主题
 
 ```
 vim ~/.zshrc
 ```
 找到ZSH_THEME=“”，这句话，在双引号里面写上 crunch就可以啦
 
-### 4. 设置插件
+## 4. 设置插件
 
 - zsh-autosuggestions：历史补全
 
@@ -43,7 +43,7 @@ plugins=(
    zsh-autosuggestions
 ```
 
-### 5. 终端美化
+## 5. 终端美化
 
 打开JSON设置，定位到Defaults里添加：
 ```

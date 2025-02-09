@@ -3,11 +3,11 @@
 
 &lt;!--more--&gt;
 {{&lt; figure src=&#34;picture/9.jpg&#34;&gt;}}
-## 在Linux上使用v2ray
+# 在Linux上使用v2ray
 
-### 1. 安装 v2ray-core 和 v2rayA
+## 1. 安装 v2ray-core 和 v2rayA
 
-#### 1.1 安装v2ray-core
+### 1.1 安装v2ray-core
 
 参考网站：[检测到 geosite.dat, geoip.dat 文件或 v2ray-core 可能未正确安装 – 爱思考的人 (aisikao.ren)](https://aisikao.ren/22633/)
 
@@ -30,7 +30,7 @@ sudo cp ./v2ray/*dat /usr/local/share/v2ray
 sudo install -Dm755 ./v2ray/v2ray /usr/local/bin/v2ray
 ```
 
-#### 1.2 安装v2rayA
+### 1.2 安装v2rayA
 
 参考网站[介绍 - v2rayA](https://v2raya.org/docs/prologue/introduction/)
 
@@ -53,7 +53,7 @@ sudo systemctl start v2raya.service
 sudo systemctl enable v2raya.service
 ```
 
-### 2. 使用
+## 2. 使用
 
 如果你通过 2017 端口 如 [http://localhost:2017](http://localhost:2017/) 无法访问 UI 界面，请检查你的服务是否已经启动。
 
@@ -78,7 +78,7 @@ sudo systemctl enable v2raya.service
 
 
 
-#### 注意
+### 注意
 
 关机前记得关闭服务，否则下次开机自动开启服务
 

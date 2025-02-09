@@ -6,9 +6,9 @@
     *   [1. 安装](#1-安装)
     *   [2. 替换](#2-替换) --&gt;
 {{&lt; figure src=&#34;picture/4.jpg&#34;&gt;}}
-## 升级CMake
+# 升级CMake
 
-### 1. 安装
+## 1. 安装
 
 安装依赖
 
@@ -28,7 +28,7 @@
     make -j8
     sudo make install
 
-### 2. 替换
+## 2. 替换
 
 最后使用新安装的cmake替换旧版本，其中/usr/local/bin/cmake为新安装的cmake目录
 

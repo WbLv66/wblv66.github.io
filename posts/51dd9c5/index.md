@@ -3,11 +3,11 @@
 
 &lt;!--more--&gt;
 {{&lt; figure src=&#34;picture/3.jpg&#34;&gt;}}
-## vscode&#43;clang
+# vscode&#43;clang
 
 优势：代码提示更快；可以进行静态分析
 
-### 1. 在ubuntu上安装clang（推荐14及以上，有类型提示）
+## 1. 在ubuntu上安装clang（推荐14及以上，有类型提示）
 ```
 wget https://apt.llvm.org/llvm.sh
 chmod u&#43;x llvm.sh
@@ -28,7 +28,7 @@ chmod &#43;x llvm.sh
  sudo update-alternatives --display clang&#43;&#43;
 
  ```
-### 2. 在vscode上安装插件
+## 2. 在vscode上安装插件
 
 禁用微软c&#43;&#43;插件的代码提示功能
 
@@ -39,7 +39,7 @@ chmod &#43;x llvm.sh
 下载clangd插件和codelldb插件，codelldb插件在安装时会自动额外下载一个包
 
 安装好后在clangd插件设置中勾选enable code completion，在clangd插件设置Arguments里面添加``--compile-commands-dir=${workspaceFolder}/build`` 和 ``--header-insertion=never``，Path设置为``/usr/bin/clangd-14``
-### 3. 配置.clang-format
+## 3. 配置.clang-format
 
 此文件可以帮助代码格式化，放在主目录便可以了，为了让文件能在保存时自动格式化可以在`settings.json`里面写入`&#34;editor.formatOnSave&#34;: true`
 
@@ -55,7 +55,7 @@ IndentWidth: 4
 ColumnLimit: 80
 
 ```
-### 4. 配置.clang-tidy
+## 4. 配置.clang-tidy
 
 此文件可以进行代码的静态分析，放在主目录便可以了，借助Cmake的输出文件可以让代码的静态分析更加准确。在`CMakeLists.txt`里面写入`set(CMAKE_EXPORT_COMPILE_COMMANDS ON)`
 

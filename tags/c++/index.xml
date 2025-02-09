@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>笔记 - 分类 - </title>
-    <link>https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
+    <title>C&#43;&#43; - 标签 - </title>
+    <link>https://lvwinbor.github.io/tags/c&#43;&#43;/</link>
     <description></description>
     <generator>Hugo 0.143.1 &amp; FixIt v0.3.17-8b402129</generator>
     <language>zh-CN</language>
     <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
     <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
     <lastBuildDate>Sat, 08 Feb 2025 11:57:51 +0800</lastBuildDate>
-    <atom:link href="https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lvwinbor.github.io/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>C&#43;&#43;引用</title>
       <link>https://lvwinbor.github.io/posts/1f15d8a/</link>
@@ -17,14 +17,6 @@
       <guid>https://lvwinbor.github.io/posts/1f15d8a/</guid>
       <category domain="https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
       <description>C++引用</description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://lvwinbor.github.io/posts/c41c58c/</link>
-      <pubDate>Wed, 05 Feb 2025 16:08:40 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
-      <guid>https://lvwinbor.github.io/posts/c41c58c/</guid>
-      <category domain="https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
-      <description>Docker</description>
     </item>
   </channel>
 </rss>

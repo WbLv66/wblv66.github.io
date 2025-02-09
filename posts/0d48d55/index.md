@@ -6,12 +6,12 @@
   - [1. 查看Eigen版本](#1-查看eigen版本)
   - [2. 安装](#2-安装) --&gt;
 {{&lt; figure src=&#34;picture/10.jpg&#34;  &gt;}}
-## 升级Eigen库
+# 升级Eigen库
 
 `usr/include/eigen3`存放的是apt安装的Eigen库
 `/usr/local/include/eigen3`存放的是源码安装的Eigen库
 
-### 1. 查看Eigen版本
+## 1. 查看Eigen版本
 
     sudo updatedb
 
@@ -21,7 +21,7 @@
 
 
 
-### 2. 安装
+## 2. 安装
 
     # 下载Eigen源码,最好下载最新release版本
     wget https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz

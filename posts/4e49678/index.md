@@ -8,11 +8,11 @@
   - [3. 设置软链接](#3-设置软链接)
   - [4. 更新系统libstdc&#43;&#43;版本](#4-更新系统libstdc版本) --&gt;
 {{&lt; figure src=&#34;picture/1.jpg&#34;&gt;}}
-## 升级gcc/g&#43;&#43;
-### 1. 查看版本
+# 升级gcc/g&#43;&#43;
+## 1. 查看版本
 `` gcc -v ``
 `` g&#43;&#43; -v ``
-### 2. 下载指定版本
+## 2. 下载指定版本
 进入清华源下载相应版本
 ``` 
 https://mirror.tuna.tsinghua.edu.cn/gnu/gcc
@@ -44,7 +44,7 @@ LD_LIBRARY_PATH=/opt/gcc-14.1.0/libxec:$LD_LIBRARY_PATH
 LD_LIBRARY_PATH=/opt/gcc-14.1.0/include:$INCLUDE
 ```
 ``source ~/.bashrc`` --&gt;
-### 3. 设置软链接
+## 3. 设置软链接
 查看系统gcc/g&#43;&#43;版本
 ```
 locate g&#43;&#43;|grep /usr/bin/
@@ -63,7 +63,7 @@ sudo update-alternatives --install /usr/bin/g&#43;&#43; g&#43;&#43; /opt/gcc-14.
 sudo update-alternatives --config gcc
 sudo update-alternatives --config g&#43;&#43;
 ```
-### 4. 更新系统libstdc&#43;&#43;版本
+## 4. 更新系统libstdc&#43;&#43;版本
 libstdc{?&#43;}&#43;是适应于g{?&#43;}&#43;的标准库,位于`/usr/lib/x86_64-linux-gnu/`下面
 使用指令先看下系统目前都有哪些版本的
 ``

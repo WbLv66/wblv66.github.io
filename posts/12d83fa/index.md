@@ -3,9 +3,9 @@
 
 &lt;!--more--&gt;
 {{&lt; figure src=&#34;picture/5.jpg&#34;&gt;}}
-## 设置开机自启动
+# 设置开机自启动
 
-### 1. 创建一个启动脚本
+## 1. 创建一个启动脚本
 
 ```
 cd ~
@@ -13,7 +13,7 @@ touch start_joy.sh
 chmod &#43;x start_joy.sh
 ```
 
-### 2. 编辑脚本文件
+## 2. 编辑脚本文件
 
 
 
@@ -29,7 +29,7 @@ roslaunch vehicle_rea joy_control.launch
 
 ```
 
-### 3. 配置自动启动
+## 3. 配置自动启动
 
 - 创建 `~/.config/autostart` 目录（如果它不存在的话）
 - 使用 `gnome-terminal` 打开一个新的终端窗口并执行上述脚本。编辑 `~/.config/autostart` 目录下的 `.desktop` 文件来实现这一点

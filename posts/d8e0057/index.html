@@ -207,11 +207,11 @@
   <a href="#clion%e4%b8%8a%e4%bd%bf%e7%94%a8ros" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h2><h3 id="1-启动clion" class="heading-element"><span>1. 启动CLion</span>
+</h2><h2 id="1-启动clion" class="heading-element"><span>1. 启动CLion</span>
   <a href="#1-%e5%90%af%e5%8a%a8clion" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h3><p>在ROS的根目录下(执行catkin_make的目录)执行如下(如果已将该路径添加到.bashrc文件则可跳过)：
+</h2><p>在ROS的根目录下(执行catkin_make的目录)执行如下(如果已将该路径添加到.bashrc文件则可跳过)：
 <code>source ./devel/setup.bash</code>
 寻找CLion位置</p>
 <pre><code># 使用locate
@@ -222,11 +222,11 @@ sudo find / -name &quot;clion.sh&quot;
 </code></pre>
 <p>打开CLion(sh 后面的路径因人而异)
 <code>sh /home/robot/.local/share/JetBrains/Toolbox/apps/clion-nova/bin/clion.sh</code></p>
-<h3 id="2-clion-中打开一个-ros-项目" class="heading-element"><span>2. CLion 中打开一个 ROS 项目</span>
+<h2 id="2-clion-中打开一个-ros-项目" class="heading-element"><span>2. CLion 中打开一个 ROS 项目</span>
   <a href="#2-clion-%e4%b8%ad%e6%89%93%e5%bc%80%e4%b8%80%e4%b8%aa-ros-%e9%a1%b9%e7%9b%ae" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h3><p>一定要选择工作区的 src 目录以从中导入项目
+</h2><p>一定要选择工作区的 src 目录以从中导入项目
 设置build路径
 默认情况下，CLion 将生成输出放在自动创建的 cmake-build-debug 或 cmake-build-release 目录中。对于 ROS 开发，这意味着将在 CLion 和运行 catkin _ make 的控制台中使用两种不同的构建。因此需要将 CLion 构建路径设置为 catkin 工作区目录</p>
 <ul>
@@ -235,11 +235,11 @@ sudo find / -name &quot;clion.sh&quot;
 <li>Generation path(构建目录) 项修改如下，路径是自己ROS的build目录
 <code>/home/robot/catkin_ws/build</code></li>
 </ul>
-<h3 id="3-wslclionros" class="heading-element"><span>3. wsl+Clion+ros</span>
+<h2 id="3-wslclionros" class="heading-element"><span>3. wsl+Clion+ros</span>
   <a href="#3-wslclionros" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h3><p>Toolchain选择WSL</p>
+</h2><p>Toolchain选择WSL</p>
 <p>CMake options：</p>
 <pre><code>-DCATKIN_DEVEL_PREFIX=/home/lwb/bit_ants/devel 
 -DCMAKE_PREFIX_PATH=/home/lwb/bit_ants/devel 
@@ -278,7 +278,7 @@ sudo find / -name &quot;clion.sh&quot;
 </article>
 
   <aside class="toc" id="toc-auto" aria-label="目录"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
-      <div class="toc-content" id="toc-content-auto"></div></aside></main><footer class="footer">
+      <div class="toc-content always-active" id="toc-content-auto"></div></aside></main><footer class="footer">
   <div class="footer-container"><div class="footer-line powered order-5">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer"
         title="Hugo 0.143.1"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external"
         title="FixIt v0.3.17-8b402129"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
