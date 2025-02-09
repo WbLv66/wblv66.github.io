@@ -2,7 +2,7 @@
 
 
 &lt;!--more--&gt;
-
+{{&lt; figure src=&#34;picture/11.jpg&#34;  &gt;}}
 # 左值引用与右值引用
 
 ## 1. 左值与右值
@@ -128,6 +128,8 @@ int main()
 &gt; [!NOTE]
 &gt; 实现完美转发需要用到万能引用和 std::forward。
 
+---
+本笔记参考了「Hoshino373」的文章，原文链接为：https://blog.csdn.net/m0_59938453/article/details/125858335
 
 ---
 
