@@ -5,7 +5,7 @@
 &lt;!-- *   [升级CMake](#升级cmake)
     *   [1. 安装](#1-安装)
     *   [2. 替换](#2-替换) --&gt;
-{{&lt; figure src=&#34;picture/4.jpg&#34;&gt;}}
+{{&lt; figure src=&#34;https://cdn.pixabay.com/photo/2022/12/24/11/42/home-7675774_1280.jpg&#34;&gt;}}
 # 升级CMake
 
 ## 1. 安装

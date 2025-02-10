@@ -2,7 +2,7 @@
 
 
 &lt;!--more--&gt;
-{{&lt; figure src=&#34;picture/2.jpg&#34;&gt;}}
+{{&lt; figure src=&#34;https://cdn.pixabay.com/photo/2022/12/29/17/10/sunset-7685372_1280.jpg&#34;&gt;}}
 # 配置zsh
 ## 1. 安装zsh
 ```

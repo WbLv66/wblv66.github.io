@@ -2,7 +2,7 @@
 
 
 &lt;!--more--&gt;
-{{&lt; figure src=&#34;picture/7.jpg&#34;&gt;}}
+{{&lt; figure src=&#34;https://cdn.pixabay.com/photo/2024/02/18/13/13/ai-generated-8581182_1280.jpg&#34;&gt;}}
 # git
 
 ## 1. ssh配置

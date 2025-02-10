@@ -2,7 +2,7 @@
 
 
 &lt;!--more--&gt;
-{{&lt; figure src=&#34;picture/3.jpg&#34;&gt;}}
+{{&lt; figure src=&#34;https://cdn.pixabay.com/photo/2022/12/01/04/34/sunset-7628289_1280.jpg&#34;&gt;}}
 # vscode&#43;clang
 
 优势：代码提示更快；可以进行静态分析

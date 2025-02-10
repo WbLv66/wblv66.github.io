@@ -2,7 +2,7 @@
 
 
 &lt;!--more--&gt;
-{{&lt; figure src=&#34;picture/6.jpg&#34;&gt;}}
+{{&lt; figure src=&#34;https://cdn.pixabay.com/photo/2023/02/20/20/45/ai-generated-7803075_1280.jpg&#34;&gt;}}
 # CLion上使用ros
 
 ## 1. 启动CLion

@@ -2,7 +2,7 @@
 
 
 &lt;!--more--&gt;
-{{&lt; figure src=&#34;picture/8.jpg&#34;&gt;}}
+{{&lt; figure src=&#34;https://cdn.pixabay.com/photo/2023/12/22/20/38/anime-8464339_1280.jpg&#34;&gt;}}
 # docker命令
 
 查看本地镜像

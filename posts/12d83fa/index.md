@@ -2,7 +2,7 @@
 
 
 &lt;!--more--&gt;
-{{&lt; figure src=&#34;picture/5.jpg&#34;&gt;}}
+{{&lt; figure src=&#34;https://cdn.pixabay.com/photo/2024/05/09/08/07/ai-generated-8750161_1280.jpg&#34;&gt;}}
 # 设置开机自启动
 
 ## 1. 创建一个启动脚本
