@@ -25,17 +25,19 @@
 
 {{&lt; figure src=&#34;基于搜索的路径规划/queue.png&#34; caption=&#34;queue&#34;height=&#34;400&#34; width=&#34;auto&#34; &gt;}}
 
-算法：
+### 1.2 深度优先(DFS)
 
+深度优先算法使用的容器为**栈(stack)**，遵循的规则是**先进后出**。
 
+{{&lt; figure src=&#34;基于搜索的路径规划/stack.png&#34; caption=&#34;stack&#34;height=&#34;400&#34; width=&#34;auto&#34; &gt;}}
 
-```python
-def bfs(grid, start, end):
-  visited = np.zeros_like(grid) # 存储已访问过的节点,访问过为1 
-  parent = np.full_like(grid, None, dtype=object)  # 存储父节点，以便重建路径
-  queue = deque([start]) # 创建一个队列，并将起始节点添加到队列中
-```
-          
+### 1.3 二者对比
+
+- 二者都只能用于各边代价相同的情况。
+
+- BFS能找到全局最优解，但是速度比较慢
+
+- DFS不一定能找到全局最优解，但是速度比较快
 
 ---
 
