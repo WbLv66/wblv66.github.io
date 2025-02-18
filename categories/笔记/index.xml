@@ -4,12 +4,28 @@
     <title>笔记 - 分类 - lvwinbor的博客</title>
     <link>https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
     <description>lvwinbor的博客</description>
-    <generator>Hugo 0.143.1 &amp; FixIt v0.3.17-8b402129</generator>
+    <generator>Hugo 0.144.0 &amp; FixIt v0.3.17-8b402129</generator>
     <language>zh-CN</language>
     <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
     <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
-    <lastBuildDate>Sat, 15 Feb 2025 20:29:20 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Feb 2025 14:25:01 +0800</lastBuildDate>
     <atom:link href="https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;初始化</title>
+      <link>https://lvwinbor.github.io/posts/be00f5e/</link>
+      <pubDate>Tue, 18 Feb 2025 14:25:01 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>https://lvwinbor.github.io/posts/be00f5e/</guid>
+      <category domain="https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>C++初始化</description>
+    </item>
+    <item>
+      <title>C&#43;&#43;代码书写规范</title>
+      <link>https://lvwinbor.github.io/posts/5ad53d5/</link>
+      <pubDate>Mon, 17 Feb 2025 15:34:56 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>https://lvwinbor.github.io/posts/5ad53d5/</guid>
+      <category domain="https://lvwinbor.github.io/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      <description>C++代码书写规范</description>
+    </item>
     <item>
       <title>STL容器</title>
       <link>https://lvwinbor.github.io/posts/10a4e19/</link>
