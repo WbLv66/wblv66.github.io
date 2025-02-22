@@ -22,6 +22,6 @@ std::initializer_list在一下情况会自动构造对象:
 
 ---
 
-> 作者: lvwinbor  
-> URL: https://lvwinbor.github.io/posts/be00f5e/  
+> 作者: Lv Wenbo  
+> URL: https://WbLv66.github.io/posts/be00f5e/  
 

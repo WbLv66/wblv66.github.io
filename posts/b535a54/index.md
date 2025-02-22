@@ -86,6 +86,6 @@ sudo systemctl enable v2raya.service
 
 ---
 
-> 作者: lvwinbor  
-> URL: https://lvwinbor.github.io/posts/b535a54/  
+> 作者: Lv Wenbo  
+> URL: https://WbLv66.github.io/posts/b535a54/  
 

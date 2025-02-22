@@ -97,4 +97,4 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
-Sitemap: https://lvwinbor.github.io/sitemap.xml
+Sitemap: https://WbLv66.github.io/sitemap.xml

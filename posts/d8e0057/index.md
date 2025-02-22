@@ -52,6 +52,6 @@ Build directory: `../build`
 
 ---
 
-> 作者: lvwinbor  
-> URL: https://lvwinbor.github.io/posts/d8e0057/  
+> 作者: Lv Wenbo  
+> URL: https://WbLv66.github.io/posts/d8e0057/  
 

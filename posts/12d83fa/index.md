@@ -60,6 +60,6 @@ Comment=Run start_joy.sh on startup
 
 ---
 
-> 作者: lvwinbor  
-> URL: https://lvwinbor.github.io/posts/12d83fa/  
+> 作者: Lv Wenbo  
+> URL: https://WbLv66.github.io/posts/12d83fa/  
 

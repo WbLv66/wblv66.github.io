@@ -128,6 +128,6 @@ std::vector可以使用``push_back()``方法在末尾添加元素，也可以使
 
 ---
 
-> 作者: lvwinbor  
-> URL: https://lvwinbor.github.io/posts/10a4e19/  
+> 作者: Lv Wenbo  
+> URL: https://WbLv66.github.io/posts/10a4e19/  
 

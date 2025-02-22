@@ -71,6 +71,6 @@ home目录下conda版本不生效：在主题文件中将python segment的&#34;h
 
 ---
 
-> 作者: lvwinbor  
-> URL: https://lvwinbor.github.io/posts/17f286e/  
+> 作者: Lv Wenbo  
+> URL: https://WbLv66.github.io/posts/17f286e/  
 

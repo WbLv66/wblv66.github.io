@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Clang - 标签 - lvwinbor的博客</title>
-    <link>https://lvwinbor.github.io/tags/clang/</link>
-    <description>lvwinbor的博客</description>
+    <title>Clang - 标签 - Lv Wenbo的博客</title>
+    <link>https://WbLv66.github.io/tags/clang/</link>
+    <description>Lv Wenbo的博客</description>
     <generator>Hugo 0.144.2 &amp; FixIt v0.3.17-8b402129</generator>
     <language>zh-CN</language>
-    <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
-    <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
+    <managingEditor>wb.lv@qq.com (Lv Wenbo)</managingEditor>
+    <webMaster>wb.lv@qq.com (Lv Wenbo)</webMaster>
     <lastBuildDate>Sat, 15 Feb 2025 21:41:12 +0800</lastBuildDate>
-    <atom:link href="https://lvwinbor.github.io/tags/clang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://WbLv66.github.io/tags/clang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vscode&#43;clang</title>
-      <link>https://lvwinbor.github.io/posts/51dd9c5/</link>
-      <pubDate>Wed, 05 Feb 2025 15:44:45 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
-      <guid>https://lvwinbor.github.io/posts/51dd9c5/</guid>
-      <category domain="https://lvwinbor.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</category>
+      <link>https://WbLv66.github.io/posts/51dd9c5/</link>
+      <pubDate>Wed, 05 Feb 2025 15:44:45 +0800</pubDate><author>wb.lv@qq.com (Lv Wenbo)</author>
+      <guid>https://WbLv66.github.io/posts/51dd9c5/</guid>
+      <category domain="https://WbLv66.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</category>
       <description>Vscode+clang</description>
     </item>
   </channel>

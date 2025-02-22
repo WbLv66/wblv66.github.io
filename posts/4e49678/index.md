@@ -85,6 +85,6 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libstdc&#43;&#43;.so.6.0.33 /usr/lib/x86_64
 
 ---
 
-> 作者: lvwinbor  
-> URL: https://lvwinbor.github.io/posts/4e49678/  
+> 作者: Lv Wenbo  
+> URL: https://WbLv66.github.io/posts/4e49678/  
 
