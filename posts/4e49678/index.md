@@ -64,12 +64,12 @@ sudo update-alternatives --config gcc
 sudo update-alternatives --config g&#43;&#43;
 ```
 ## 4. 更新系统libstdc&#43;&#43;版本
-libstdc{?&#43;}&#43;是适应于g{?&#43;}&#43;的标准库,位于`/usr/lib/x86_64-linux-gnu/`下面
+libstdc\&#43;&#43;是适应于g\&#43;&#43;的标准库,位于`/usr/lib/x86_64-linux-gnu/`下面
 使用指令先看下系统目前都有哪些版本的
 ``
 strings /usr/lib/x86_64-linux-gnu/libstdc&#43;&#43;.so.6 | grep GLIBCXX
 ``
-寻找安装高版本gcc目录下的libstdc{?&#43;}&#43;.so.6
+寻找安装高版本gcc目录下的libstdc\&#43;&#43;.so.6
 ``sudo find / -name &#34;libstdc&#43;&#43;.so.6*&#34;|grep /opt``
 使用之前的指令看看其是否包含需要的版本
 ``strings /opt/gcc-14.1.0/lib64/libstdc&#43;&#43;.so.6.0.33 | grep GLIBCXX``

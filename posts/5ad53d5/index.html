@@ -10,7 +10,7 @@
   <meta itemprop="name" content="C&#43;&#43;代码书写规范">
   <meta itemprop="datePublished" content="2025-02-17T15:34:56+08:00">
   <meta itemprop="dateModified" content="2025-02-17T15:34:56+08:00">
-  <meta itemprop="wordCount" content="151">
+  <meta itemprop="wordCount" content="348">
   <meta itemprop="keywords" content="C&#43;&#43;,代码规范"><meta property="og:url" content="https://lvwinbor.github.io/posts/5ad53d5/">
   <meta property="og:site_name" content="lvwinbor的博客">
   <meta property="og:title" content="C&#43;&#43;代码书写规范">
@@ -36,7 +36,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https:\/\/lvwinbor.github.io\/posts\/5ad53d5\/"
-    },"genre": "posts","keywords": "C\u002b\u002b, 代码规范","wordcount":  151 ,
+    },"genre": "posts","keywords": "C\u002b\u002b, 代码规范","wordcount":  348 ,
     "url": "https:\/\/lvwinbor.github.io\/posts\/5ad53d5\/","datePublished": "2025-02-17T15:34:56+08:00","dateModified": "2025-02-17T15:34:56+08:00","publisher": {
       "@type": "Organization",
       "name": ""},"author": {
@@ -180,7 +180,7 @@
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="转载" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>C&#43;&#43;代码书写规范</span>
       </h1></div><div class="post-meta">
-      <div class="post-meta-line"><span class="post-author"><span class="author"><img loading="lazy" src="/Accelerator.png" alt="lvwinbor" data-title="lvwinbor" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;lvwinbor</span></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category" title="分类 - 笔记"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 笔记</a></span></div><div class="post-meta-line"><span title="发布于 2025-02-17 15:34:56"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-02-17">2025-02-17</time></span>&nbsp;<span title="151 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 200 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 1 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="C&#43;&#43;代码书写规范"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;次阅读
+      <div class="post-meta-line"><span class="post-author"><span class="author"><img loading="lazy" src="/Accelerator.png" alt="lvwinbor" data-title="lvwinbor" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;lvwinbor</span></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category" title="分类 - 笔记"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 笔记</a></span></div><div class="post-meta-line"><span title="发布于 2025-02-17 15:34:56"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-02-17">2025-02-17</time></span>&nbsp;<span title="348 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 400 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 1 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="C&#43;&#43;代码书写规范"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;次阅读
           </span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
@@ -204,6 +204,9 @@
 <li>全局变量和常量使用k+大驼峰命名法，类成员变量可以以下划线作为结尾，结构体成员变量不加下划线</li>
 <li>尽量不要使用全局变量，可以将其封装进对象里</li>
 <li>ros中回调函数的形参可以使用const name &amp; 修饰</li>
+<li>函数声明中const修饰符无意义，只需在函数定义中使用</li>
+<li>在成员函数中使用ros中的subscribe需要参考以下格式：省略.subscribe(&ldquo;话题&rdquo;, 1, &amp;类::回调函数, this);</li>
+<li>模板类的静态成员变量是每个特定实例化类型共享一份，而不是所有实例化类共享同一份。例如MyClass&lt;int&gt;和MyClass&lt;double&gt;的静态成员变量是独立的。</li>
 </ol></div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
@@ -233,7 +236,7 @@
 
   <aside class="toc" id="toc-auto" aria-label="目录"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
       <div class="toc-content always-active" id="toc-content-auto"></div></aside></main><footer class="footer">
-    <div class="footer-container"><div class="footer-line powered order-5">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.144.0"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.17-8b402129"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+    <div class="footer-container"><div class="footer-line powered order-5">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.144.2"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.17-8b402129"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
         </div><div class="footer-line copyright order-2" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
             <span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">
               <a href="/">lvwinbor</a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div><div class="footer-line visitor order-1">

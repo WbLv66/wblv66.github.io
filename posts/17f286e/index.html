@@ -5,39 +5,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="robots" content="noodp" />
-    <title>Zsh - lvwinbor的博客</title><meta name="author" content="lvwinbor">
-<meta name="description" content=""><meta name="keywords" content='linux, zsh'>
-  <meta itemprop="name" content="Zsh">
-  <meta itemprop="datePublished" content="2025-02-05T15:35:51+08:00">
-  <meta itemprop="dateModified" content="2025-02-10T21:36:37+08:00">
-  <meta itemprop="wordCount" content="240">
-  <meta itemprop="keywords" content="Linux,Zsh"><meta property="og:url" content="https://lvwinbor.github.io/posts/bbea803/">
+    <title>终端美化 - lvwinbor的博客</title><meta name="author" content="lvwinbor">
+<meta name="description" content=""><meta name="keywords" content='终端'>
+  <meta itemprop="name" content="终端美化">
+  <meta itemprop="datePublished" content="2025-02-22T12:47:44+08:00">
+  <meta itemprop="dateModified" content="2025-02-22T12:47:44+08:00">
+  <meta itemprop="wordCount" content="358">
+  <meta itemprop="keywords" content="终端"><meta property="og:url" content="https://lvwinbor.github.io/posts/17f286e/">
   <meta property="og:site_name" content="lvwinbor的博客">
-  <meta property="og:title" content="Zsh">
+  <meta property="og:title" content="终端美化">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-02-05T15:35:51+08:00">
-    <meta property="article:modified_time" content="2025-02-10T21:36:37+08:00">
-    <meta property="article:tag" content="Linux">
-    <meta property="article:tag" content="Zsh">
+    <meta property="article:published_time" content="2025-02-22T12:47:44+08:00">
+    <meta property="article:modified_time" content="2025-02-22T12:47:44+08:00">
+    <meta property="article:tag" content="终端">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Zsh">
+  <meta name="twitter:title" content="终端美化">
 <meta name="application-name" content="FixIt">
-<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/icon.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" type="text/html" href="https://lvwinbor.github.io/posts/bbea803/" title="Zsh - lvwinbor的博客" /><link rel="prev" type="text/html" href="https://lvwinbor.github.io/posts/4e49678/" title="升级GCC" /><link rel="next" type="text/html" href="https://lvwinbor.github.io/posts/51dd9c5/" title="Vscode&#43;clang" /><link rel="alternate" type="text/markdown" href="https://lvwinbor.github.io/posts/bbea803/index.md" title="Zsh - lvwinbor的博客"><link rel="stylesheet" href="/css/style.min.d9c5b20d39b2d8c47857282adb4aa8abbd6a4a2b7cc9e0abf89f4f648cfe15e0.css" integrity="sha256-2cWyDTmy2MR4Vygq20qoq71qSit8yeCr+J9PZIz+FeA="><link rel="preload" href="/lib/fontawesome-free/all.min.320d572dfb844e7152480b7b62374236c4896ccca3ac9d69bb03f3bc2034acb8.css" integrity="sha256-Mg1XLfuETnFSSAt7YjdCNsSJbMyjrJ1puwPzvCA0rLg=" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/icon.svg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" type="text/html" href="https://lvwinbor.github.io/posts/17f286e/" title="终端美化 - lvwinbor的博客" /><link rel="prev" type="text/html" href="https://lvwinbor.github.io/posts/be00f5e/" title="C&#43;&#43;初始化" /><link rel="alternate" type="text/markdown" href="https://lvwinbor.github.io/posts/17f286e/index.md" title="终端美化 - lvwinbor的博客"><link rel="stylesheet" href="/css/style.min.d9c5b20d39b2d8c47857282adb4aa8abbd6a4a2b7cc9e0abf89f4f648cfe15e0.css" integrity="sha256-2cWyDTmy2MR4Vygq20qoq71qSit8yeCr+J9PZIz+FeA="><link rel="preload" href="/lib/fontawesome-free/all.min.320d572dfb844e7152480b7b62374236c4896ccca3ac9d69bb03f3bc2034acb8.css" integrity="sha256-Mg1XLfuETnFSSAt7YjdCNsSJbMyjrJ1puwPzvCA0rLg=" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.320d572dfb844e7152480b7b62374236c4896ccca3ac9d69bb03f3bc2034acb8.css" integrity="sha256-Mg1XLfuETnFSSAt7YjdCNsSJbMyjrJ1puwPzvCA0rLg="></noscript><link rel="preload" href="/lib/animate/animate.min.5fbaeb9f8e25d7e0143bae61d4b1802c16ce7390b96ceb2d498b0d96ff4c853f.css" integrity="sha256-X7rrn44l1+AUO65h1LGALBbOc5C5bOstSYsNlv9MhT8=" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/lib/animate/animate.min.5fbaeb9f8e25d7e0143bae61d4b1802c16ce7390b96ceb2d498b0d96ff4c853f.css" integrity="sha256-X7rrn44l1+AUO65h1LGALBbOc5C5bOstSYsNlv9MhT8="></noscript><script type="application/ld+json">
   {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "Zsh",
+    "headline": "终端美化",
     "inLanguage": "zh-CN",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https:\/\/lvwinbor.github.io\/posts\/bbea803\/"
-    },"genre": "posts","keywords": "linux, zsh","wordcount":  240 ,
-    "url": "https:\/\/lvwinbor.github.io\/posts\/bbea803\/","datePublished": "2025-02-05T15:35:51+08:00","dateModified": "2025-02-10T21:36:37+08:00","publisher": {
+      "@id": "https:\/\/lvwinbor.github.io\/posts\/17f286e\/"
+    },"genre": "posts","keywords": "终端","wordcount":  358 ,
+    "url": "https:\/\/lvwinbor.github.io\/posts\/17f286e\/","datePublished": "2025-02-22T12:47:44+08:00","dateModified": "2025-02-22T12:47:44+08:00","publisher": {
       "@type": "Organization",
       "name": ""},"author": {
         "@type": "Person",
@@ -106,7 +105,7 @@
   <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
   </div><nav aria-label="breadcrumb" class="breadcrumb-container">
-    <ol class="breadcrumb"><li class="breadcrumb-item" data-separator="/"><a href="/posts/" title="Posts">文章</a></li><li class="breadcrumb-item active" data-separator="/" aria-current="page">Zsh</li>
+    <ol class="breadcrumb"><li class="breadcrumb-item" data-separator="/"><a href="/posts/" title="Posts">文章</a></li><li class="breadcrumb-item active" data-separator="/" aria-current="page">终端美化</li>
     </ol>
   </nav><main class="container"><aside class="aside-collection animate__animated animate__fadeIn animate__faster" aria-label="合集">
 <!DOCTYPE html>
@@ -178,9 +177,9 @@
 </html></aside>
 
   <article class="page single">
-    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="转载" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>Zsh</span>
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="转载" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>终端美化</span>
       </h1></div><div class="post-meta">
-      <div class="post-meta-line"><span class="post-author"><span class="author"><img loading="lazy" src="/Accelerator.png" alt="lvwinbor" data-title="lvwinbor" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;lvwinbor</span></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/" class="post-category" title="分类 - 技术文档"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 技术文档</a></span></div><div class="post-meta-line"><span title="发布于 2025-02-05 15:35:51"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-02-05">2025-02-05</time></span>&nbsp;<span title="更新于 2025-02-10 21:36:37"><i class="fa-regular fa-calendar-check fa-fw me-1" aria-hidden="true"></i><time datetime="2025-02-10">2025-02-10</time></span>&nbsp;<span title="240 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 300 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 1 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="Zsh"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;次阅读
+      <div class="post-meta-line"><span class="post-author"><span class="author"><img loading="lazy" src="/Accelerator.png" alt="lvwinbor" data-title="lvwinbor" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;lvwinbor</span></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/" class="post-category" title="分类 - 技术文档"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 技术文档</a></span></div><div class="post-meta-line"><span title="发布于 2025-02-22 12:47:44"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-02-22">2025-02-22</time></span>&nbsp;<span title="358 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 400 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 1 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="终端美化"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;次阅读
           </span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
@@ -189,29 +188,39 @@
         </div>
         <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#配置zsh">配置zsh</a>
+    <li><a href="#终端美化">终端美化</a>
       <ul>
-        <li><a href="#1-安装zsh">1. 安装zsh</a></li>
-        <li><a href="#2-安装oh-my-zsh">2. 安装oh-my-zsh</a></li>
-        <li><a href="#3-修改主题">3. 修改主题</a></li>
-        <li><a href="#4-设置插件">4. 设置插件</a></li>
-        <li><a href="#5-终端美化">5. 终端美化</a></li>
+        <li><a href="#1-zsh">1. zsh</a>
+          <ul>
+            <li><a href="#11-安装zsh">1.1 安装zsh</a></li>
+            <li><a href="#12-安装oh-my-zsh">1.2 安装oh-my-zsh</a></li>
+            <li><a href="#13-修改主题">1.3 修改主题</a></li>
+            <li><a href="#14-设置插件">1.4 设置插件</a></li>
+            <li><a href="#15-终端美化">1.5 终端美化</a></li>
+          </ul>
+        </li>
+        <li><a href="#2-oh-my-posh">2. oh my posh</a></li>
+        <li><a href="#3-git-bash">3. git bash</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-      </div><div class="content" id="content"><figure><img src="https://cdn.pixabay.com/photo/2022/12/29/17/10/sunset-7685372_1280.jpg">
+      </div><div class="content" id="content"><figure><img src="https://cdn.pixabay.com/photo/2022/12/30/15/04/anime-7687171_1280.jpg">
 </figure>
 
-<h2 id="配置zsh" class="heading-element"><span>配置zsh</span>
-  <a href="#%e9%85%8d%e7%bd%aezsh" class="heading-mark">
+<h2 id="终端美化" class="heading-element"><span>终端美化</span>
+  <a href="#%e7%bb%88%e7%ab%af%e7%be%8e%e5%8c%96" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h2><h2 id="1-安装zsh" class="heading-element"><span>1. 安装zsh</span>
-  <a href="#1-%e5%ae%89%e8%a3%85zsh" class="heading-mark">
+</h2><h2 id="1-zsh" class="heading-element"><span>1. zsh</span>
+  <a href="#1-zsh" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h2><div class="highlight"><div class="chroma">
+</h2><h3 id="11-安装zsh" class="heading-element"><span>1.1 安装zsh</span>
+  <a href="#11-%e5%ae%89%e8%a3%85zsh" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
@@ -227,22 +236,22 @@
 </span></span><span class="line"><span class="cl">chsh -s $(which zsh) </span></span></code></pre></td></tr></table>
 </div>
 </div><p>不要关闭终端</p>
-<h2 id="2-安装oh-my-zsh" class="heading-element"><span>2. 安装oh-my-zsh</span>
-  <a href="#2-%e5%ae%89%e8%a3%85oh-my-zsh" class="heading-mark">
+<h3 id="12-安装oh-my-zsh" class="heading-element"><span>1.2 安装oh-my-zsh</span>
+  <a href="#12-%e5%ae%89%e8%a3%85oh-my-zsh" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h2><div class="highlight"><div class="chroma">
+</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">sh</span> <span class="o">-</span><span class="n">c</span> <span class="s2">&#34;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&#34;</span> </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="3-修改主题" class="heading-element"><span>3. 修改主题</span>
-  <a href="#3-%e4%bf%ae%e6%94%b9%e4%b8%bb%e9%a2%98" class="heading-mark">
+</div><h3 id="13-修改主题" class="heading-element"><span>1.3 修改主题</span>
+  <a href="#13-%e4%bf%ae%e6%94%b9%e4%b8%bb%e9%a2%98" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h2><div class="highlight"><div class="chroma">
+</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
@@ -250,11 +259,11 @@
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim ~/.zshrc</span></span></code></pre></td></tr></table>
 </div>
 </div><p>找到ZSH_THEME=“”，这句话，在双引号里面写上 crunch就可以啦</p>
-<h2 id="4-设置插件" class="heading-element"><span>4. 设置插件</span>
-  <a href="#4-%e8%ae%be%e7%bd%ae%e6%8f%92%e4%bb%b6" class="heading-mark">
+<h3 id="14-设置插件" class="heading-element"><span>1.4 设置插件</span>
+  <a href="#14-%e8%ae%be%e7%bd%ae%e6%8f%92%e4%bb%b6" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h2><ul>
+</h3><ul>
 <li>zsh-autosuggestions：历史补全</li>
 </ul>
 <p>下载安装</p>
@@ -279,11 +288,11 @@
 </span></span><span class="line"><span class="cl">   # other plugins...
 </span></span><span class="line"><span class="cl">   zsh-autosuggestions</span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="5-终端美化" class="heading-element"><span>5. 终端美化</span>
-  <a href="#5-%e7%bb%88%e7%ab%af%e7%be%8e%e5%8c%96" class="heading-mark">
+</div><h3 id="15-终端美化" class="heading-element"><span>1.5 终端美化</span>
+  <a href="#15-%e7%bb%88%e7%ab%af%e7%be%8e%e5%8c%96" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
-</h2><p>打开JSON设置，定位到Defaults里添加：</p>
+</h3><p>打开JSON设置，定位到Defaults里添加：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -307,36 +316,45 @@
 </span></span><span class="line"><span class="cl">&#34;backgroundImage&#34;: &#34;C:/Users/lwb/Desktop/picture/yourname.jpg&#34;,
 </span></span><span class="line"><span class="cl">&#34;backgroundImageOpacity&#34;: 0.4</span></span></code></pre></td></tr></table>
 </div>
-</div></div><div class="post-footer" id="post-footer">
+</div><h2 id="2-oh-my-posh" class="heading-element"><span>2. oh my posh</span>
+  <a href="#2-oh-my-posh" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>home目录下conda版本不生效：在主题文件中将python segment的&quot;home_enabled&quot;设置为true</p>
+<h2 id="3-git-bash" class="heading-element"><span>3. git bash</span>
+  <a href="#3-git-bash" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>删除键窗口会闪烁:新建一个~/.inputrc 文件，输入set bell-style none，保存；</p></div><div class="post-footer" id="post-footer">
   <div class="post-info">
     <div class="post-info-line">
       <div class="post-info-mod">
-        <span title="更新于 2025-02-10 21:36:37">更新于 2025-02-10&nbsp;</span>
+        <span title="更新于 2025-02-22 12:47:44">更新于 2025-02-22&nbsp;</span>
       </div></div><div class="post-info-line">
-        <div class="post-info-md"><span><a href="/posts/bbea803/index.md" title="阅读原始文档" class="link-to-markdown">阅读原始文档</a></span></div>
+        <div class="post-info-md"><span><a href="/posts/17f286e/index.md" title="阅读原始文档" class="link-to-markdown">阅读原始文档</a></span></div>
         <div class="post-info-share">
-          <span><a href="javascript:void(0);" title="分享到 X" data-sharer="twitter" data-url="https://lvwinbor.github.io/posts/bbea803/" data-title="Zsh" data-hashtags="linux,zsh"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://lvwinbor.github.io/posts/bbea803/" data-hashtag="linux"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://lvwinbor.github.io/posts/bbea803/" data-title="Zsh"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://lvwinbor.github.io/posts/bbea803/" data-title="Zsh" data-description=""><i class="fa-brands fa-blogger fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://lvwinbor.github.io/posts/bbea803/" data-title="Zsh"><i class="fa-brands fa-evernote fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="分享到 Skype" data-sharer="skype" data-url="https://lvwinbor.github.io/posts/bbea803/" data-title="Zsh"><i class="fa-brands fa-skype fa-fw" aria-hidden="true"></i></a>
+          <span><a href="javascript:void(0);" title="分享到 X" data-sharer="twitter" data-url="https://lvwinbor.github.io/posts/17f286e/" data-title="终端美化" data-hashtags="终端"><i class="fa-brands fa-x-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://lvwinbor.github.io/posts/17f286e/" data-hashtag="终端"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://lvwinbor.github.io/posts/17f286e/" data-title="终端美化"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://lvwinbor.github.io/posts/17f286e/" data-title="终端美化" data-description=""><i class="fa-brands fa-blogger fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://lvwinbor.github.io/posts/17f286e/" data-title="终端美化"><i class="fa-brands fa-evernote fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="分享到 Skype" data-sharer="skype" data-url="https://lvwinbor.github.io/posts/17f286e/" data-title="终端美化"><i class="fa-brands fa-skype fa-fw" aria-hidden="true"></i></a>
   </span>
         </div>
       </div></div>
 
   <div class="post-info-more">
-    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/linux/" class="post-tag" title="标签 - Linux">Linux</a><a href="/tags/zsh/" class="post-tag" title="标签 - Zsh">Zsh</a></section>
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href="/tags/%E7%BB%88%E7%AB%AF/" class="post-tag" title="标签 - 终端">终端</a></section>
     <section>
       <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
     </section>
-  </div><div class="post-nav"><a href="/posts/4e49678/" class="post-nav-item" rel="prev" title="升级GCC"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>升级GCC</a><a href="/posts/51dd9c5/" class="post-nav-item" rel="next" title="Vscode&#43;clang">Vscode&#43;clang<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+  </div><div class="post-nav"><a href="/posts/be00f5e/" class="post-nav-item" rel="prev" title="C&#43;&#43;初始化"><i class="fa-solid fa-angle-left fa-fw" aria-hidden="true"></i>C&#43;&#43;初始化</a></div>
 </div>
 </article>
 
   <aside class="toc" id="toc-auto" aria-label="目录"><h2 class="toc-title">目录&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
       <div class="toc-content always-active" id="toc-content-auto"></div></aside></main><footer class="footer">
-    <div class="footer-container"><div class="footer-line powered order-5">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.144.0"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.17-8b402129"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
+    <div class="footer-container"><div class="footer-line powered order-5">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.144.2"><img class="hugo-icon" src="/images/hugo.min.svg" alt="Hugo logo" /> Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.17-8b402129"><img class="fixit-icon" src="/images/fixit.min.svg" alt="FixIt logo" /> FixIt</a>
         </div><div class="footer-line copyright order-2" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
             <span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">
               <a href="/">lvwinbor</a></span><span class="license footer-divider"><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div><div class="footer-line visitor order-1">

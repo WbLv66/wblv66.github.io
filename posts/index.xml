@@ -4,12 +4,20 @@
     <title>所有文章 - lvwinbor的博客</title>
     <link>https://lvwinbor.github.io/posts/</link>
     <description>lvwinbor的博客</description>
-    <generator>Hugo 0.144.0 &amp; FixIt v0.3.17-8b402129</generator>
+    <generator>Hugo 0.144.2 &amp; FixIt v0.3.17-8b402129</generator>
     <language>zh-CN</language>
     <managingEditor>wb.lv@qq.com (lvwinbor)</managingEditor>
     <webMaster>wb.lv@qq.com (lvwinbor)</webMaster>
-    <lastBuildDate>Tue, 18 Feb 2025 14:25:01 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 12:47:44 +0800</lastBuildDate>
     <atom:link href="https://lvwinbor.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>终端美化</title>
+      <link>https://lvwinbor.github.io/posts/17f286e/</link>
+      <pubDate>Sat, 22 Feb 2025 12:47:44 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
+      <guid>https://lvwinbor.github.io/posts/17f286e/</guid>
+      <category domain="https://lvwinbor.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</category>
+      <description>终端美化</description>
+    </item>
     <item>
       <title>C&#43;&#43;初始化</title>
       <link>https://lvwinbor.github.io/posts/be00f5e/</link>
@@ -113,14 +121,6 @@
       <guid>https://lvwinbor.github.io/posts/51dd9c5/</guid>
       <category domain="https://lvwinbor.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</category>
       <description>Vscode+clang</description>
-    </item>
-    <item>
-      <title>Zsh</title>
-      <link>https://lvwinbor.github.io/posts/bbea803/</link>
-      <pubDate>Wed, 05 Feb 2025 15:35:51 +0800</pubDate><author>wb.lv@qq.com (lvwinbor)</author>
-      <guid>https://lvwinbor.github.io/posts/bbea803/</guid>
-      <category domain="https://lvwinbor.github.io/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</category>
-      <description>Zsh</description>
     </item>
     <item>
       <title>升级GCC</title>
