@@ -18,10 +18,17 @@ chsh -s $(which zsh)
 ```
 不要关闭终端
 ### 1.2 安装oh-my-zsh
-
+1、curl/wget下载
 ```
-sh -c &#34;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&#34; 
+sh -c &#34;$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&#34;
+```
+2、手动下载
+```
+git clone git@github.com:ohmyzsh/ohmyzsh.git
 
+ cd ohmyzsh/tools/
+
+ ./install.sh
 ```
 ### 1.3 修改主题
 
@@ -36,7 +43,7 @@ vim ~/.zshrc
 
 下载安装
 ```
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone git@github.com:zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 vim ~/.zshrc进去配置zsh-autosuggestions
 ```
@@ -44,6 +51,7 @@ plugins=(
    git
    # other plugins...
    zsh-autosuggestions
+   )
 ```
 
 ### 1.5 终端美化
@@ -62,8 +70,37 @@ plugins=(
 ```
 
 ## 2. oh my posh
+安装参考官方文档
+{{&lt; link &#34;https://ohmyposh.dev/docs/installation/linux&#34;&gt;}}
 
+设置主题
+```
+vim ~/.zshrc
+```
+添加如下语句
+```
+export PATH=&#34;$HOME/.local/bin:$PATH&#34;
+
+# 想使用windows系统上的主题可以加入
+eval &#34;$(oh-my-posh --init --shell zsh --config  /mnt/c/Users/lwb/AppData/Local/Programs/oh-my-posh/themes/M365Princess.json)&#34;
+
+# 想使用本系统上的主题可以加入
+eval &#34;$(oh-my-posh --init --shell zsh --config  /home/lwb/.cache/oh-my-posh/themes/M365Princess.json)&#34;
+```
 home目录下conda版本不生效：在主题文件中将python segment的&#34;home_enabled&#34;设置为true
+```
+{
+	&#34;type&#34;: &#34;python&#34;,
+	...
+	&#34;properties&#34;: {
+		&#34;home_enabled&#34;: true,
+    ...
+	},
+	...
+},
+
+```
+
 
 ## 3. git bash
 

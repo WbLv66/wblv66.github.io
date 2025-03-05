@@ -21,7 +21,12 @@
     	User git
     	IdentityFile ~/.ssh/mykey   # 这里mykey换成你命名的私钥名称
 
-
+## 2. 添加SSH key到github
+拷贝 id_rsa.pub 文件的内容
+```
+vim ~/.ssh/id_rsa.pub
+```
+登录github账号，从右上角的设置进入，然后点击菜单栏的 SSH key 进入页面添加 SSH key
 
 ---
 

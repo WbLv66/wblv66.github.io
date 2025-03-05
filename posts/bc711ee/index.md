@@ -1,64 +1,59 @@
-# 升级GCC
+# 升级glibc
 
 
 &lt;!--more--&gt;
-&lt;!-- - [升级gcc/g&#43;&#43;](#升级gccg)
-  - [1. 查看版本](#1-查看版本)
-  - [2. 下载指定版本](#2-下载指定版本)
-  - [3. 设置软链接](#3-设置软链接)
-  - [4. 更新系统libstdc&#43;&#43;版本](#4-更新系统libstdc版本) --&gt;
-{{&lt; figure src=&#34;https://cdn.pixabay.com/photo/2022/12/24/11/42/home-7675773_1280.jpg&#34;&gt;}}
-# 升级gcc/g&#43;&#43;
+
+# 升级glibc
+&gt; [!WARNING]
+&gt; GLIBC 是系统的核心库，升级不当可能导致系统无法启动，最好先在docker中测试
+
+参考链接
+
+{{&lt; link &#34;https://stone.moe/posts/%E6%95%99%E7%A8%8B/how-to-upgrade-linux-glibc-manually/&#34;&gt;}}
+
+{{&lt; link &#34;https://www.cnblogs.com/KBin/articles/Upgrade-GLIBC-for-Linux.html&#34;&gt;}}
+
 ## 1. 查看版本
 ```
-gcc -v 
+ldd --version
 ```
+或者使用
 ```
-g&#43;&#43; -v
+strings /usr/lib/x86_64-linux-gnu/libc.so.6 |grep GLIBC
 ```
 ## 2. 下载指定版本
 进入清华源下载相应版本
 ``` 
-https://mirror.tuna.tsinghua.edu.cn/gnu/gcc
+https://mirror.tuna.tsinghua.edu.cn/gnu/glibc
 
-wget https://mirror.tuna.tsinghua.edu.cn/gnu/gcc/gcc-14.1.0/gcc-14.1.0.tar.gz
+wget https://mirror.tuna.tsinghua.edu.cn/gnu/glibc/glibc-2.40.tar.gz
 ```
-解压文件进入目录,我下载的是gcc-14.1.0,版本因人而异
+解压文件进入目录,我下载的是glibc-2.40,版本因人而异
 ```
-tar -xf gcc-14.1.0.tar.gz
-cd gcc-14.1.0
+tar -xzf  glibc-2.40.tar.gz
+cd glibc-2.40
 ```
-下载依赖包
-```
-./contrib/download_prerequisites
-```
-创建一个用于编译GCC的目录：
+创建一个用于编译glib的目录：
 ```
 mkdir build &amp;&amp; cd build
 ```
+安装依赖
+```
+sudo apt-get install libc6-dev-i386
+```
 配置编译选项：
 ```
-../configure --prefix=/opt/gcc-14.1.0 --enable-languages=c,c&#43;&#43; --disable-multilib
+.../configure --prefix=/usr --disable-profile --enable-add-ons --with-headers=/usr/include --with-binutils=/usr/bin
 ```
 开始编译
 ```
 make -j8
 ```
-最后，安装GCC：
+最后，安装glib：
 ```
 sudo make install
 ```
-&lt;!-- ## 3. 设置环境变量(应该不需要)
-永久加入到系统环境变量中
-``gedit ~/.bashrc``
-```
-PATH=/opt/gcc-14.1.0/bin:$PATH
-LD_LIBRARY_PATH=/opt/gcc-14.1.0/lib:$LD_LIBRARY_PATH
-LD_LIBRARY_PATH=/opt/gcc-14.1.0/lib64:$LD_LIBRARY_PATH
-LD_LIBRARY_PATH=/opt/gcc-14.1.0/libxec:$LD_LIBRARY_PATH
-LD_LIBRARY_PATH=/opt/gcc-14.1.0/include:$INCLUDE
-```
-``source ~/.bashrc`` --&gt;
+
 ## 3. 设置软链接
 查看系统gcc/g&#43;&#43;版本
 ```
@@ -107,5 +102,5 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libstdc&#43;&#43;.so.6.0.33 /usr/lib/x86_64
 ---
 
 > 作者: Lv Wenbo  
-> URL: https://WbLv66.github.io/posts/4e49678/  
+> URL: https://WbLv66.github.io/posts/bc711ee/  
 
