@@ -37,7 +37,25 @@ vim ~/.zshrc
 ```
 找到ZSH_THEME=“”，这句话，在双引号里面写上 crunch就可以啦
 
-### 1.4 设置插件
+### 1.4 修改远程仓库地址
+
+HTTPS访问GitHub经常受到网络限制或防火墙的影响，改用SSH是一个更稳定的选择
+
+打开配置文件：
+
+```
+vim ~/.oh-my-zsh/.git/config
+```
+
+将仓库 URL 从 HTTPS 改为 SSH 格式：
+
+```
+remote &#34;origin&#34;]  
+    url = git@github.com:ohmyzsh/ohmyzsh.git  
+    fetch = &#43;refs/heads/*:refs/remotes/origin/*
+```
+
+### 1.5 设置插件
 
 - zsh-autosuggestions：历史补全
 
@@ -54,7 +72,7 @@ plugins=(
    )
 ```
 
-### 1.5 终端美化
+### 1.6 终端美化
 
 打开JSON设置，定位到Defaults里添加：
 ```

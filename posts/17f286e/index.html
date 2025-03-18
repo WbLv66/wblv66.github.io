@@ -10,7 +10,7 @@
   <meta itemprop="name" content="终端美化">
   <meta itemprop="datePublished" content="2025-02-22T12:47:44+08:00">
   <meta itemprop="dateModified" content="2025-02-22T12:47:44+08:00">
-  <meta itemprop="wordCount" content="492">
+  <meta itemprop="wordCount" content="577">
   <meta itemprop="keywords" content="终端"><meta property="og:url" content="https://WbLv66.github.io/posts/17f286e/">
   <meta property="og:site_name" content="Lv Wenbo的博客">
   <meta property="og:title" content="终端美化">
@@ -35,7 +35,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https:\/\/WbLv66.github.io\/posts\/17f286e\/"
-    },"genre": "posts","keywords": "终端","wordcount":  492 ,
+    },"genre": "posts","keywords": "终端","wordcount":  577 ,
     "url": "https:\/\/WbLv66.github.io\/posts\/17f286e\/","datePublished": "2025-02-22T12:47:44+08:00","dateModified": "2025-02-22T12:47:44+08:00","publisher": {
       "@type": "Organization",
       "name": ""},"author": {
@@ -179,7 +179,7 @@
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span title="转载" class="icon-repost"><i class="fa-solid fa-share fa-fw" aria-hidden="true"></i></span><span>终端美化</span>
       </h1></div><div class="post-meta">
-      <div class="post-meta-line"><span class="post-author"><span class="author"><img loading="lazy" src="/Accelerator.png" alt="Lv Wenbo" data-title="Lv Wenbo" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;Lv Wenbo</span></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/" class="post-category" title="分类 - 技术文档"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 技术文档</a></span></div><div class="post-meta-line"><span title="发布于 2025-02-22 12:47:44"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-02-22">2025-02-22</time></span>&nbsp;<span title="492 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 500 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 1 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="终端美化"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;次阅读
+      <div class="post-meta-line"><span class="post-author"><span class="author"><img loading="lazy" src="/Accelerator.png" alt="Lv Wenbo" data-title="Lv Wenbo" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;Lv Wenbo</span></span><span class="post-included-in">&nbsp;收录于 <a href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/" class="post-category" title="分类 - 技术文档"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> 技术文档</a></span></div><div class="post-meta-line"><span title="发布于 2025-02-22 12:47:44"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-02-22">2025-02-22</time></span>&nbsp;<span title="577 字"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>约 600 字</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>预计阅读 2 分钟</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="终端美化"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;次阅读
           </span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
@@ -195,8 +195,9 @@
             <li><a href="#11-安装zsh">1.1 安装zsh</a></li>
             <li><a href="#12-安装oh-my-zsh">1.2 安装oh-my-zsh</a></li>
             <li><a href="#13-修改主题">1.3 修改主题</a></li>
-            <li><a href="#14-设置插件">1.4 设置插件</a></li>
-            <li><a href="#15-终端美化">1.5 终端美化</a></li>
+            <li><a href="#14-修改远程仓库地址">1.4 修改远程仓库地址</a></li>
+            <li><a href="#15-设置插件">1.5 设置插件</a></li>
+            <li><a href="#16-终端美化">1.6 终端美化</a></li>
           </ul>
         </li>
         <li><a href="#2-oh-my-posh">2. oh my posh</a></li>
@@ -276,8 +277,33 @@
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim ~/.zshrc</span></span></code></pre></td></tr></table>
 </div>
 </div><p>找到ZSH_THEME=“”，这句话，在双引号里面写上 crunch就可以啦</p>
-<h3 id="14-设置插件" class="heading-element"><span>1.4 设置插件</span>
-  <a href="#14-%e8%ae%be%e7%bd%ae%e6%8f%92%e4%bb%b6" class="heading-mark">
+<h3 id="14-修改远程仓库地址" class="heading-element"><span>1.4 修改远程仓库地址</span>
+  <a href="#14-%e4%bf%ae%e6%94%b9%e8%bf%9c%e7%a8%8b%e4%bb%93%e5%ba%93%e5%9c%b0%e5%9d%80" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h3><p>HTTPS访问GitHub经常受到网络限制或防火墙的影响，改用SSH是一个更稳定的选择</p>
+<p>打开配置文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">vim ~/.oh-my-zsh/.git/config</span></span></code></pre></td></tr></table>
+</div>
+</div><p>将仓库 URL 从 HTTPS 改为 SSH 格式：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">remote &#34;origin&#34;]  
+</span></span><span class="line"><span class="cl">    url = git@github.com:ohmyzsh/ohmyzsh.git  
+</span></span><span class="line"><span class="cl">    fetch = +refs/heads/*:refs/remotes/origin/*</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="15-设置插件" class="heading-element"><span>1.5 设置插件</span>
+  <a href="#15-%e8%ae%be%e7%bd%ae%e6%8f%92%e4%bb%b6" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
 </h3><ul>
@@ -307,8 +333,8 @@
 </span></span><span class="line"><span class="cl">   zsh-autosuggestions
 </span></span><span class="line"><span class="cl">   )</span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="15-终端美化" class="heading-element"><span>1.5 终端美化</span>
-  <a href="#15-%e7%bb%88%e7%ab%af%e7%be%8e%e5%8c%96" class="heading-mark">
+</div><h3 id="16-终端美化" class="heading-element"><span>1.6 终端美化</span>
+  <a href="#16-%e7%bb%88%e7%ab%af%e7%be%8e%e5%8c%96" class="heading-mark">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
   </a>
 </h3><p>打开JSON设置，定位到Defaults里添加：</p>
