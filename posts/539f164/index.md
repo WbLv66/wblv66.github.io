@@ -10,7 +10,7 @@
 创建本地密钥
 
     cd ~/.ssh
-    ssh-keygen -t rsa -b 4096
+    ssh-keygen -t rsa -C &#34;你的邮箱1@xxx.com&#34;
 
 在`~/.ssh`添加文件config
 
